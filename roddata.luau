@@ -1,5 +1,7 @@
 
 
+
+
 -- Decompiler will be improved soon!
 -- Decompiled with Konstant V2.1, a fast Luau decompiler made in Luau by plusgiant5 (https://discord.gg/wyButjTMhM)
 -- Decompiled on 2025-02-10 05:16:25
@@ -1370,18 +1372,6 @@ local module_upvr = {
 		BobberTop = Color3.fromRGB(134, 38, 38);
 		BobberBottom = Color3.fromRGB(255, 255, 255);
 	};
-	RegisteredNumberOfRods = (function() -- Line 1425, Named "count"
-		--[[ Upvalues[1]:
-			[1]: module_upvr (readonly)
-		]]
-		local var109
-		for _, v in pairs(module_upvr) do
-			if typeof(v) == "table" and not v.Unregistered then
-				var109 += 1
-			end
-		end
-		return var109
-	end)();
 	UnRegistered = {
 		["Nates Blade"] = "Nates Blade";
 		["Executive Rod"] = "Executive Rod";
